@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 8948953927774648406}
   - component: {fileID: 8164278469540465536}
   - component: {fileID: 2648948406564290422}
+  - component: {fileID: 4945372617665916292}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Untagged
@@ -188,6 +189,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -271,7 +275,7 @@ BoxCollider2D:
   m_EdgeRadius: 0
 --- !u!50 &7320725861673979416
 Rigidbody2D:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -282,8 +286,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_GravityScale: 5
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -313,7 +317,7 @@ MonoBehaviour:
   groundCheck: {fileID: 250150679859203041}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 1
   moveLeftKey: 97
   moveRightKey: 100
   jumpKey: 32
@@ -342,7 +346,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21542d2b47b6393408fbb22e45e4ff7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  porcentagemvida: {fileID: 4945372617665916292}
   health: 0
+--- !u!114 &4945372617665916292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2909311276265796158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad2f57ef44a1054b9446cffb464a07e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthText: {fileID: 0}
+  status: {fileID: 2648948406564290422}
 --- !u!1 &7606016459509031745
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,6 +411,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -415,7 +437,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: -3486667697080468902, guid: 588f32c95b7f4764c97d3f9bb17ff11d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
