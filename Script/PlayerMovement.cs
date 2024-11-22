@@ -71,9 +71,10 @@ public class PlayerMovement : MonoBehaviour
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
         {
             isFacingRight = !isFacingRight;
-            Vector3 localScale = transform.localScale;
-            localScale.x *= -1f;
-            transform.localScale = localScale;
+
+            // Inverte a rotação em Y
+            float rotationY = isFacingRight ? 0f : 180f;
+            transform.localRotation = Quaternion.Euler(0f, rotationY, 0f);
         }
     }
 
