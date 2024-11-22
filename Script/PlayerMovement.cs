@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private float jumpingPower = 20f;
     public bool isFacingRight = true;
     private bool isKnockedBack = false; // Estado de knockback
+    GameObject player = GameObject.Find("Player1");
+    //myObject.GetComponent<RotateOnCommand>().SetYRotation(45f);
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -18,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private KeyCode moveLeftKey = KeyCode.A;
     [SerializeField] private KeyCode moveRightKey = KeyCode.D;
     [SerializeField] private KeyCode jumpKey = KeyCode.Space;
+
 
     private float knockbackDecay; // Taxa de desaceleração
 
@@ -73,6 +76,7 @@ public class PlayerMovement : MonoBehaviour
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
+            myObject.GetComponent<RotateOnCommand>().SetYRotation(45f);
         }
     }
 
