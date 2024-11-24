@@ -518,7 +518,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 324600964}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1541,7 +1541,7 @@ GameObject:
   - component: {fileID: 1299412075}
   - component: {fileID: 1299412074}
   - component: {fileID: 1299412073}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1736,7 +1736,7 @@ GameObject:
   - component: {fileID: 1376687155}
   - component: {fileID: 1376687157}
   - component: {fileID: 1376687156}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Player2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2225,7 +2225,7 @@ GameObject:
   - component: {fileID: 1734189800}
   - component: {fileID: 1734189802}
   - component: {fileID: 1734189801}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Player1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
