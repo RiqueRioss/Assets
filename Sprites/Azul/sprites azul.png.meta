@@ -1,0 +1,959 @@
+fileFormatVersion: 2
+guid: 9980ee60ff5632b40955d63b5812e714
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9043326778773061846
+    second: sprites azul_0
+  - first:
+      213: -5489918617588743137
+    second: sprites azul_1
+  - first:
+      213: 6658913294671267937
+    second: sprites azul_2
+  - first:
+      213: -4263478022769348700
+    second: sprites azul_3
+  - first:
+      213: -999746405133163117
+    second: sprites azul_4
+  - first:
+      213: 4585120169348434294
+    second: sprites azul_5
+  - first:
+      213: 4351395080980896437
+    second: sprites azul_6
+  - first:
+      213: -1000153832531980822
+    second: sprites azul_7
+  - first:
+      213: -5285919181272971189
+    second: sprites azul_8
+  - first:
+      213: -523697120866351173
+    second: sprites azul_9
+  - first:
+      213: 1501366003607761333
+    second: sprites azul_10
+  - first:
+      213: -7467737570660488899
+    second: sprites azul_11
+  - first:
+      213: -3671515664935454809
+    second: sprites azul_12
+  - first:
+      213: -6454066074162536947
+    second: sprites azul_13
+  - first:
+      213: 339499187470717828
+    second: sprites azul_14
+  - first:
+      213: 860452862680275620
+    second: sprites azul_15
+  - first:
+      213: -7999205164093399235
+    second: sprites azul_16
+  - first:
+      213: -6111185989586490215
+    second: sprites azul_17
+  - first:
+      213: 7897017533907193582
+    second: sprites azul_18
+  - first:
+      213: -5184723105952861333
+    second: sprites azul_19
+  - first:
+      213: -926476740039081528
+    second: sprites azul_20
+  - first:
+      213: 7526230857745525929
+    second: sprites azul_21
+  - first:
+      213: 2148084936629506096
+    second: sprites azul_22
+  - first:
+      213: -8851724360018707895
+    second: sprites azul_23
+  - first:
+      213: -27949433723928436
+    second: sprites azul_24
+  - first:
+      213: -7584306399536508964
+    second: sprites azul_25
+  - first:
+      213: -7013481265310886923
+    second: sprites azul_26
+  - first:
+      213: -2665762547294720557
+    second: sprites azul_27
+  - first:
+      213: -4113806074007206363
+    second: sprites azul_28
+  - first:
+      213: -7954719587376569256
+    second: sprites azul_29
+  - first:
+      213: 6858515475804694030
+    second: sprites azul_30
+  - first:
+      213: 7864398768089387291
+    second: sprites azul_31
+  - first:
+      213: -3684368454815623553
+    second: sprites azul_32
+  - first:
+      213: -302687264565518973
+    second: sprites azul_33
+  - first:
+      213: 7746282512374901217
+    second: sprites azul_34
+  - first:
+      213: -5179701149117651515
+    second: sprites azul_35
+  - first:
+      213: 4682047005834892379
+    second: sprites azul_36
+  - first:
+      213: -7809047979181719514
+    second: sprites azul_37
+  - first:
+      213: 5423921041189427622
+    second: sprites azul_38
+  - first:
+      213: 2111511252899870308
+    second: sprites azul_39
+  - first:
+      213: 5796923028350435565
+    second: sprites azul_40
+  - first:
+      213: -5370357358097449165
+    second: sprites azul_41
+  - first:
+      213: 1551635207112272727
+    second: sprites azul_42
+  - first:
+      213: -2310425549271214039
+    second: sprites azul_43
+  - first:
+      213: 111818949805074906
+    second: sprites azul_44
+  - first:
+      213: 6137383916578436078
+    second: sprites azul_45
+  - first:
+      213: -3761950440418055074
+    second: sprites azul_46
+  - first:
+      213: 1497560898938695471
+    second: sprites azul_47
+  - first:
+      213: -8449950556306389135
+    second: sprites azul_48
+  - first:
+      213: 3465761420158506325
+    second: sprites azul_49
+  - first:
+      213: -1440493585758091248
+    second: sprites azul_50
+  - first:
+      213: -3713103849069490414
+    second: sprites azul_51
+  - first:
+      213: 4997255473483495258
+    second: sprites azul_52
+  - first:
+      213: 4229793867251233393
+    second: sprites azul_53
+  - first:
+      213: 6625345353667848978
+    second: sprites azul_54
+  - first:
+      213: 8154141974232863227
+    second: sprites azul_55
+  - first:
+      213: 7232288613267767597
+    second: sprites azul_56
+  - first:
+      213: -5536933781099497906
+    second: sprites azul_57
+  - first:
+      213: 6645193867054099819
+    second: sprites azul_58
+  - first:
+      213: 4987875804177181632
+    second: sprites azul_59
+  - first:
+      213: 5182573609540773182
+    second: sprites azul_60
+  - first:
+      213: -4489791394928236097
+    second: sprites azul_61
+  - first:
+      213: -1099849838391954600
+    second: sprites azul_62
+  - first:
+      213: 8381123658126676173
+    second: sprites azul_63
+  - first:
+      213: 4872701786443456456
+    second: sprites azul_64
+  - first:
+      213: 9094975684479446868
+    second: sprites azul_65
+  - first:
+      213: -2150856501411951238
+    second: sprites azul_66
+  - first:
+      213: -3515298331179794696
+    second: sprites azul_67
+  - first:
+      213: -4505554056717105220
+    second: sprites azul_68
+  - first:
+      213: 4381573813087479004
+    second: sprites azul_69
+  - first:
+      213: -3761444345355987211
+    second: sprites azul_70
+  - first:
+      213: -7881069336198155956
+    second: sprites azul_71
+  - first:
+      213: 4196554910128418677
+    second: sprites azul_72
+  - first:
+      213: -184225001371468668
+    second: sprites azul_73
+  - first:
+      213: 2230737901658820249
+    second: sprites azul_74
+  - first:
+      213: 7902661936664724473
+    second: sprites azul_75
+  - first:
+      213: -5718676302310696659
+    second: sprites azul_76
+  - first:
+      213: 6499053043238942562
+    second: sprites azul_77
+  - first:
+      213: -158311446808982353
+    second: sprites azul_78
+  - first:
+      213: -2677745455314146805
+    second: sprites azul_79
+  - first:
+      213: -4789776723965193997
+    second: sprites azul_80
+  - first:
+      213: -5508404256333180507
+    second: sprites azul_81
+  - first:
+      213: 1576015700099053559
+    second: sprites azul_82
+  - first:
+      213: 7246455092656932726
+    second: sprites azul_83
+  - first:
+      213: 3441781299217126319
+    second: sprites azul_84
+  - first:
+      213: 4598546443435458714
+    second: sprites azul_85
+  - first:
+      213: -4574534370654367398
+    second: sprites azul_86
+  - first:
+      213: 4889211166802003993
+    second: sprites azul_87
+  - first:
+      213: -7838044809782122360
+    second: sprites azul_88
+  - first:
+      213: -3264292830210178959
+    second: sprites azul_89
+  - first:
+      213: -3754570332353050496
+    second: sprites azul_90
+  - first:
+      213: -7307884944980024220
+    second: sprites azul_91
+  - first:
+      213: -1303852444255293003
+    second: sprites azul_92
+  - first:
+      213: 6294265939323357748
+    second: sprites azul_93
+  - first:
+      213: -5174770929876443191
+    second: sprites azul_94
+  - first:
+      213: 1836226660226519364
+    second: sprites azul_95
+  - first:
+      213: -622838316400937324
+    second: sprites azul_96
+  - first:
+      213: -2124320606545994193
+    second: sprites azul_97
+  - first:
+      213: 1072300659939070363
+    second: sprites azul_98
+  - first:
+      213: 7584474719161705471
+    second: sprites azul_99
+  - first:
+      213: 643433075580346302
+    second: sprites azul_100
+  - first:
+      213: -3922363132776481078
+    second: sprites azul_101
+  - first:
+      213: 8743918757856687421
+    second: sprites azul_102
+  - first:
+      213: -848777204923455348
+    second: sprites azul_103
+  - first:
+      213: 5842946648888060206
+    second: sprites azul_104
+  - first:
+      213: 7187376581865620881
+    second: sprites azul_105
+  - first:
+      213: -2127247204863001616
+    second: sprites azul_106
+  - first:
+      213: 2974292996153228416
+    second: sprites azul_107
+  - first:
+      213: 5329808751600519359
+    second: sprites azul_108
+  - first:
+      213: -4475358641441765014
+    second: sprites azul_109
+  - first:
+      213: 3538607507951350988
+    second: sprites azul_110
+  - first:
+      213: 9201929094108701534
+    second: sprites azul_111
+  - first:
+      213: 1485042290397901923
+    second: sprites azul_112
+  - first:
+      213: -6712715092070646677
+    second: sprites azul_113
+  - first:
+      213: -4779214282041259722
+    second: sprites azul_114
+  - first:
+      213: -3991680826200088026
+    second: sprites azul_115
+  - first:
+      213: -596665330643834273
+    second: sprites azul_116
+  - first:
+      213: 1279051973504455778
+    second: sprites azul_117
+  - first:
+      213: -9152717950340611596
+    second: sprites azul_118
+  - first:
+      213: -3102069297794681591
+    second: sprites azul_119
+  - first:
+      213: 1916122294663106967
+    second: sprites azul_120
+  - first:
+      213: -2744965270345662731
+    second: sprites azul_121
+  - first:
+      213: -7161389562853759213
+    second: sprites azul_122
+  - first:
+      213: 6952429330765587624
+    second: sprites azul_123
+  - first:
+      213: 2518559034537472828
+    second: sprites azul_124
+  - first:
+      213: 2422073969787619521
+    second: sprites azul_125
+  - first:
+      213: 4016344437789469178
+    second: sprites azul_126
+  - first:
+      213: -7909638035551081658
+    second: sprites azul_127
+  - first:
+      213: 2947750831013590639
+    second: sprites azul_128
+  - first:
+      213: 3704389794858201085
+    second: sprites azul_129
+  - first:
+      213: -2488008503243620377
+    second: sprites azul_130
+  - first:
+      213: 6211990707185071751
+    second: sprites azul_131
+  - first:
+      213: 3640248899789366585
+    second: sprites azul_132
+  - first:
+      213: -1172610189981145962
+    second: sprites azul_133
+  - first:
+      213: -347852678712439379
+    second: sprites azul_134
+  - first:
+      213: 920146475876123926
+    second: sprites azul_135
+  - first:
+      213: 2575980742795035087
+    second: sprites azul_136
+  - first:
+      213: 4246220238477348385
+    second: sprites azul_137
+  - first:
+      213: -5474558043382904445
+    second: sprites azul_138
+  - first:
+      213: -7092908858606882967
+    second: sprites azul_139
+  - first:
+      213: 7718875017796511769
+    second: sprites azul_140
+  - first:
+      213: -3776503221393840965
+    second: sprites azul_141
+  - first:
+      213: -529053423296248185
+    second: sprites azul_142
+  - first:
+      213: 2880480939095274877
+    second: sprites azul_143
+  - first:
+      213: 2695233761411386049
+    second: sprites azul_144
+  - first:
+      213: 1954951614057821550
+    second: sprites azul_145
+  - first:
+      213: -5247421403007981666
+    second: sprites azul_146
+  - first:
+      213: 7048910695502366058
+    second: sprites azul_147
+  - first:
+      213: -9171264223332940718
+    second: sprites azul_148
+  - first:
+      213: -7944079362384930047
+    second: sprites azul_149
+  - first:
+      213: -1485472832545064621
+    second: sprites azul_150
+  - first:
+      213: -2820840774092503764
+    second: sprites azul_151
+  - first:
+      213: 646916370457427361
+    second: sprites azul_152
+  - first:
+      213: 8796546492111623117
+    second: sprites azul_153
+  - first:
+      213: -6707865718026608751
+    second: sprites azul_154
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprites azul_12
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1757
+        width: 243
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a77d3c84f72c0dc0800000000000000
+      internalID: -3671515664935454809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_13
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 1589
+        width: 828
+        height: 558
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e54a4c91d8e66a0800000000000000
+      internalID: -6454066074162536947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_15
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1230
+        width: 896
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa960ad151f0fb00800000000000000
+      internalID: 860452862680275620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_17
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1742
+        width: 195
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c6a5e88b4b03ba0800000000000000
+      internalID: -6111185989586490215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_18
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1747
+        width: 163
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeec19d5b97d79d60800000000000000
+      internalID: 7897017533907193582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_19
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1758
+        width: 160
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b637be21ec92c08b0800000000000000
+      internalID: -5184723105952861333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_20
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1749
+        width: 137
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c10f49405e7423f0800000000000000
+      internalID: -926476740039081528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_25
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 1701
+        width: 191
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf87e353812fb690800000000000000
+      internalID: -7584306399536508964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_26
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1675
+        width: 122
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3994eb2fb1bae90800000000000000
+      internalID: -7013481265310886923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_41
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 1269
+        width: 303
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f32b9af68a875b0800000000000000
+      internalID: -5370357358097449165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_46
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1054
+        width: 409
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ce140910edacbc0800000000000000
+      internalID: -3761950440418055074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_49
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1169
+        width: 151
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5551dc436abd81030800000000000000
+      internalID: 3465761420158506325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_58
+      rect:
+        serializedVersion: 2
+        x: 3337
+        y: 879
+        width: 186
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d2d554d98783c50800000000000000
+      internalID: 6645193867054099819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_105
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 463
+        width: 305
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195cf0dbbe0beb360800000000000000
+      internalID: 7187376581865620881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_0
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 626
+        width: 827
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39204c7afd61c704fa96351e20dd3e5c
+      internalID: 1633364985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_1
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 9
+        width: 1213
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9c37c5ab14bf84bb6547b375163a9a
+      internalID: 465334358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites azul_2
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 349
+        width: 502
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03214c25eed3bdd4985fdd57069abdd6
+      internalID: 1038834083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5ec4bed955019dd40958989edcc43996
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sprites azul_0: 1633364985
+      sprites azul_1: 465334358
+      sprites azul_2: 1038834083
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

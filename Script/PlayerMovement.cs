@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private KeyCode moveRightKey = KeyCode.D;
     [SerializeField] private KeyCode jumpKey = KeyCode.Space;
 
+
     private float knockbackDecay; // Taxa de desaceleração
 
     [SerializeField] public Animator animator;
@@ -55,12 +56,12 @@ public class PlayerMovement : MonoBehaviour
             // Jump Handling
             if (Input.GetKeyDown(jumpKey) && IsGrounded())
             {
-                rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
             }
 
-            if (Input.GetKeyUp(jumpKey) && rb.velocity.y > 0f)
+            if (Input.GetKeyUp(jumpKey) && rb.linearVelocity.y > 0f)
             {
-                rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
             }
 
             Flip();
@@ -71,7 +72,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!isKnockedBack) // Movimenta apenas quando o knockback não está ativo
         {
-            rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+            rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
         }
         else
         {
@@ -84,9 +85,10 @@ public class PlayerMovement : MonoBehaviour
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
         {
             isFacingRight = !isFacingRight;
-            Vector3 localScale = transform.localScale;
-            localScale.x *= -1f;
-            transform.localScale = localScale;
+
+            // Inverte a rotação em Y
+            float rotationY = isFacingRight ? 0f : 180f;
+            transform.localRotation = Quaternion.Euler(0f, rotationY, 0f);
         }
     }
 
@@ -109,7 +111,7 @@ public class PlayerMovement : MonoBehaviour
         Vector2 force = knockbackDirection * kb;
 
         // Aplica a força ao Rigidbody2D , quanto maior a vida mais longe vai
-        rb.velocity = force * (hp/200);
+        rb.linearVelocity = force * (hp/200);
 
         setknockbackDecay(kk);
     }
@@ -121,11 +123,11 @@ public class PlayerMovement : MonoBehaviour
     private void ApplyKnockbackDeceleration()
     {
         // Reduz gradualmente a velocidade horizontal
-        Vector2 velocity = rb.velocity;
+        Vector2 velocity = rb.linearVelocity;
         velocity.x = Mathf.MoveTowards(velocity.x, 0f, knockbackDecay * Time.fixedDeltaTime);
 
         // Atualiza a velocidade do Rigidbody
-        rb.velocity = velocity;
+        rb.linearVelocity = velocity;
 
         // Desativa o knockback quando a velocidade horizontal for próxima de zero e estiver no chão
         if (Mathf.Abs(velocity.x) < 0.1f && IsGrounded())
