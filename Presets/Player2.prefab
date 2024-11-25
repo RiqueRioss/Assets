@@ -79,10 +79,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -2, y: 2}
-      - {x: -2, y: -1.5}
-      - {x: 3, y: -1.5}
-      - {x: 3, y: 2}
+    - - {x: 1.4832687, y: 0.9755094}
+      - {x: 1.5174184, y: -1.1585032}
+      - {x: 10.717831, y: -1.6024488}
+      - {x: 10.751979, y: 2.1024492}
   m_UseDelaunayMesh: 0
 --- !u!114 &5203040795516665587
 MonoBehaviour:
@@ -257,6 +257,7 @@ MonoBehaviour:
   area_a_frente_t: 1.83
   area_a_cima: {fileID: 190404940683565723}
   area_a_cima_t: 0.83
+  area_a_cima_startdelay: 0.4
   animator: {fileID: 3982833621291027201}
   spriteHolder: {fileID: 9034327069683536840}
   player: {fileID: 3767631628717102514}
@@ -372,9 +373,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -2, y: 0}
-      - {x: 2, y: 0}
-      - {x: -0.4, y: 6}
+    - - {x: 2.2953863, y: -3.085245}
+      - {x: 5.970006, y: -2.8370035}
+      - {x: 4.544304, y: 2.9218569}
+      - {x: 0.7439163, y: 2.786139}
   m_UseDelaunayMesh: 0
 --- !u!114 &9153202472315481041
 MonoBehaviour:
@@ -471,12 +473,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -6, y: -1.5}
-      - {x: -5, y: 3}
-      - {x: 0, y: 5}
-      - {x: 6, y: 2}
-      - {x: 6, y: -4}
-      - {x: 1, y: -1}
+    - - {x: 6.2172246, y: -0.37936008}
+      - {x: 1.5965849, y: -0.28626385}
+      - {x: 1.5655513, y: -4.0930963}
+      - {x: 6.217225, y: -4.279288}
   m_UseDelaunayMesh: 0
 --- !u!114 &2765441698431463316
 MonoBehaviour:
