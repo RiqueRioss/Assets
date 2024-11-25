@@ -13,12 +13,15 @@ public class AttackArea : MonoBehaviour
         Status status = collider.GetComponent<Status>();
         PlayerMovement xd = collider.GetComponent<PlayerMovement>();
 
+<<<<<<< Updated upstream
         if(!xd.isFacingRight){
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
 
+=======
+>>>>>>> Stashed changes
         float hp = status.Damage(damage);
 
         xd.Knockback(knockback, angle, knockbackDecay, hp);

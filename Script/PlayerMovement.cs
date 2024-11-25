@@ -21,14 +21,28 @@ public class PlayerMovement : MonoBehaviour
 
     private float knockbackDecay; // Taxa de desaceleração
 
+    [SerializeField] public Animator animator;
+    [SerializeField] private Transform spriteHolder;
+
     // Update is called once per frame
     void Update()
     {
         if (!isKnockedBack) // Permite controle apenas se o knockback não estiver ativo
         {
-            horizontal = 0f;
+            if (Mathf.Abs(horizontal) != 0)
+            {
+                horizontal *= 0.9f; // Reduz gradualmente a velocidade
+            }
 
-            // Custom Key Bindings for Movement
+            if (Mathf.Abs(horizontal) < 0.01f)
+            {
+                horizontal = 0f; // Para completamente quando muito lento
+            }
+
+            // Atualiza o valor de Speed no Animator
+            animator.SetFloat("Speed", Mathf.Abs(horizontal));
+
+            // Custom Key Bindings para Movimento
             if (Input.GetKey(moveLeftKey))
             {
                 horizontal = -1f;
