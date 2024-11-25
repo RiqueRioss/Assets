@@ -10,6 +10,7 @@ public class Attack : MonoBehaviour
     [SerializeField] private float area_a_frente_t = 0.4f;
     [SerializeField] private GameObject area_a_cima = default;
     [SerializeField] private float area_a_cima_t = 0.4f;
+    [SerializeField] private float area_a_cima_startdelay = 0.4f;
 
     [SerializeField] public Animator animator;
     [SerializeField] private Transform spriteHolder;
@@ -23,10 +24,10 @@ public class Attack : MonoBehaviour
     private float startlag;
     private float timer = 0f;
 
-    [SerializeField] public KeyCode moveLeftKey;
-    [SerializeField] public KeyCode moveRightKey;
-    [SerializeField] public KeyCode lookUpKey;
-    [SerializeField] public KeyCode jumpKey;
+    public KeyCode moveLeftKey;
+    public KeyCode moveRightKey;
+    public KeyCode lookUpKey;
+    public KeyCode jumpKey;
 
     [Header("Attack Key")]
     [SerializeField] private KeyCode attackKey = KeyCode.H;
@@ -34,9 +35,21 @@ public class Attack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        area_a_parado = transform.GetChild(0).gameObject;
-        area_a_frente = transform.GetChild(0).gameObject;
-        area_a_cima = transform.GetChild(0).gameObject;
+        foreach (Transform child in transform)
+        {
+            if (child.name == "HB_A_Parado")
+            {
+                area_a_parado = child.gameObject;
+            }
+            else if (child.name == "HB_A_Frente")
+            {
+                area_a_frente = child.gameObject;
+            }
+            else if (child.name == "HB_A_Cima")
+            {
+                area_a_cima = child.gameObject;
+            }
+        }
 
         moveLeftKey = player.getmoveLeftKey();
         moveRightKey = player.getmoveRightKey();
@@ -92,17 +105,32 @@ public class Attack : MonoBehaviour
 
     private void a_parado(){
         is_a_p = true;
-        area_a_parado.SetActive(is_a_p);
+        area_a_parado.SetActive(true);
         player.TriggerAttack(area_a_parado_t);
     }
     private void a_frente(){
         is_a_f = true;
-        area_a_frente.SetActive(is_a_f);
+        area_a_frente.SetActive(true);
         player.TriggerAttack(area_a_frente_t);
     }
     private void a_cima(){
         is_a_c = true;
-        area_a_cima.SetActive(is_a_c);
+        area_a_cima.SetActive(true);
         player.TriggerAttack(area_a_cima_t);
+    }
+
+    private IEnumerator DelayedAttack(GameObject attackArea, float attackDuration)
+    {
+        // Configura o tempo de atraso no início do ataque
+        yield return new WaitForSeconds(startlag);
+
+        // Ativa a hitbox
+        attackArea.SetActive(true);
+
+        // Configura a duração do ataque
+        yield return new WaitForSeconds(attackDuration);
+
+        // Desativa a hitbox após o tempo do ataque
+        attackArea.SetActive(false);
     }
 }
