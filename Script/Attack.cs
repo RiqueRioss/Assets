@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
-    private GameObject attackArea = default;
+    [SerializeField] private GameObject attackArea = default;
     private bool attacking = false;
+    private float startlag;
     private float timeToAttack = 0.5f;
     private float timer = 0f;
 
