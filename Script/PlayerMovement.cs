@@ -22,8 +22,8 @@ public class PlayerMovement : MonoBehaviour
 
     private float knockbackDecay; // Taxa de desaceleração
 
-    [SerializeField] public Animator animator;
-    [SerializeField] private Transform spriteHolder;
+   // [SerializeField] public Animator animator;
+   // [SerializeField] private Transform spriteHolder;
 
     // Update is called once per frame
     void Update()
@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
             }
 
             // Atualiza o valor de Speed no Animator
-            animator.SetFloat("Speed", Mathf.Abs(horizontal));
+           // animator.SetFloat("Speed", Mathf.Abs(horizontal));
 
             // Custom Key Bindings para Movimento
             if (Input.GetKey(moveLeftKey))
