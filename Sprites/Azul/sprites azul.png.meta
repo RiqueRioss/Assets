@@ -562,7 +562,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprites azul_12
+      name: azul_bloqueio
       rect:
         serializedVersion: 2
         x: 983
@@ -584,7 +584,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_13
+      name: azul_A_Parado2
       rect:
         serializedVersion: 2
         x: 1678
@@ -606,7 +606,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_15
+      name: azul_A_Cima2
       rect:
         serializedVersion: 2
         x: 2916
@@ -628,7 +628,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_17
+      name: azul_parado
       rect:
         serializedVersion: 2
         x: 55
@@ -650,7 +650,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_18
+      name: azul_andando1
       rect:
         serializedVersion: 2
         x: 346
@@ -672,7 +672,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_19
+      name: azul_andando2
       rect:
         serializedVersion: 2
         x: 532
@@ -694,7 +694,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_20
+      name: azul_andando3
       rect:
         serializedVersion: 2
         x: 742
@@ -716,7 +716,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_25
+      name: azul_A_Frente3
       rect:
         serializedVersion: 2
         x: 2590
@@ -738,7 +738,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_26
+      name: azul_A_Parado1
       rect:
         serializedVersion: 2
         x: 1405
@@ -760,7 +760,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_41
+      name: azul_A_Cima1
       rect:
         serializedVersion: 2
         x: 2562
@@ -782,7 +782,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_46
+      name: azul_A_Frente1
       rect:
         serializedVersion: 2
         x: 53
@@ -804,7 +804,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_49
+      name: azul_Ar_Frente1
       rect:
         serializedVersion: 2
         x: 2200
@@ -826,7 +826,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_58
+      name: azul_Ar_Baixo1
       rect:
         serializedVersion: 2
         x: 3337
@@ -848,7 +848,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_105
+      name: azul_Ar_Parado
       rect:
         serializedVersion: 2
         x: 78
@@ -870,7 +870,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_0
+      name: azul_Ar_Frente2
       rect:
         serializedVersion: 2
         x: 2133
@@ -878,7 +878,7 @@ TextureImporter:
         width: 827
         height: 542
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -892,7 +892,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_1
+      name: azul_Ar_Parado2
       rect:
         serializedVersion: 2
         x: 389
@@ -900,7 +900,7 @@ TextureImporter:
         width: 1213
         height: 1020
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -914,7 +914,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul_2
+      name: azul_Ar_Parad
       rect:
         serializedVersion: 2
         x: 1611
@@ -922,7 +922,7 @@ TextureImporter:
         width: 502
         height: 385
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -949,9 +949,23 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sprites azul_0: 1633364985
-      sprites azul_1: 465334358
-      sprites azul_2: 1038834083
+      azul_A_Cima1: -5370357358097449165
+      azul_A_Cima2: 860452862680275620
+      azul_A_Frente1: -3761950440418055074
+      azul_A_Frente3: -7584306399536508964
+      azul_A_Parado1: -7013481265310886923
+      azul_A_Parado2: -6454066074162536947
+      azul_Ar_Baixo1: 6645193867054099819
+      azul_Ar_Frente1: 3465761420158506325
+      azul_Ar_Frente2: 1633364985
+      azul_Ar_Parad: 1038834083
+      azul_Ar_Parado: 7187376581865620881
+      azul_Ar_Parado2: 465334358
+      azul_andando1: 7897017533907193582
+      azul_andando2: -5184723105952861333
+      azul_andando3: -926476740039081528
+      azul_bloqueio: -3671515664935454809
+      azul_parado: -6111185989586490215
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

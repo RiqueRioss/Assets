@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul2_2
+      name: azul_A_Frente2
       rect:
         serializedVersion: 2
         x: 478
@@ -189,7 +189,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites azul2_0
+      name: azul_Ar_Baixo2
       rect:
         serializedVersion: 2
         x: 2680
@@ -197,7 +197,7 @@ TextureImporter:
         width: 1160
         height: 744
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,7 +224,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sprites azul2_0: -1825810035
+      azul_A_Frente2: 9211999123450656010
+      azul_Ar_Baixo2: -1825810035
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

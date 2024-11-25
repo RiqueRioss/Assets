@@ -9,15 +9,30 @@ public class PlayerMovement : MonoBehaviour
     private float jumpingPower = 20f;
     public bool isFacingRight = true;
     private bool isKnockedBack = false; // Estado de knockback
+    private bool isAttacking = false;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
     [Header("Custom Key Bindings")]
-    [SerializeField] private KeyCode moveLeftKey = KeyCode.A;
-    [SerializeField] private KeyCode moveRightKey = KeyCode.D;
-    [SerializeField] private KeyCode jumpKey = KeyCode.Space;
+    [SerializeField] public KeyCode moveLeftKey = KeyCode.A;
+    [SerializeField] public KeyCode moveRightKey = KeyCode.D;
+    [SerializeField] public KeyCode lookUpKey = KeyCode.W;
+    [SerializeField] public KeyCode jumpKey = KeyCode.Space;
+
+    public KeyCode getmoveLeftKey(){
+        return moveLeftKey;
+    }
+    public KeyCode getmoveRightKey(){
+        return moveRightKey;
+    }
+    public KeyCode getlookUpKey(){
+        return lookUpKey;
+    }
+    public KeyCode getjumpKey(){
+        return jumpKey;
+    }
 
 
     private float knockbackDecay; // Taxa de desaceleração
@@ -41,7 +56,18 @@ public class PlayerMovement : MonoBehaviour
             }
 
             // Atualiza o valor de Speed no Animator
+<<<<<<< Updated upstream
             animator.SetFloat("Speed", Mathf.Abs(horizontal));
+=======
+            if (isAttacking)
+            {
+                animator.SetFloat("Speed", 0);
+            }
+            else {
+                animator.SetFloat("Speed", Mathf.Abs(horizontal));
+            }
+
+>>>>>>> Stashed changes
 
             // Custom Key Bindings para Movimento
             if (Input.GetKey(moveLeftKey))
@@ -135,4 +161,17 @@ public class PlayerMovement : MonoBehaviour
             isKnockedBack = false; // Permite movimento normal novamente
         }
     }
+
+    public void TriggerAttack(float duration)
+    {
+        StartCoroutine(AttackCoroutine(duration));
+    }
+
+    private IEnumerator AttackCoroutine(float duration)
+    {
+        isAttacking = true; // Ativa o estado de ataque
+        yield return new WaitForSeconds(duration); // Espera pela duração especificada
+        isAttacking = false; // Desativa o estado de ataque
+    }
+
 }

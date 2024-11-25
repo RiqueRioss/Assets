@@ -20,7 +20,11 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+<<<<<<< Updated upstream
         value: {x: -2.4, y: -0.15, z: 0}
+=======
+        value: {x: -3.1, y: 0.18, z: 0}
+>>>>>>> Stashed changes
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -29,7 +33,11 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.23333333
+<<<<<<< Updated upstream
         value: {x: -2.4, y: -0.15, z: 0}
+=======
+        value: {x: -3.1, y: 0.18, z: 0}
+>>>>>>> Stashed changes
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -38,7 +46,11 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.25
+<<<<<<< Updated upstream
         value: {x: 1, y: 0.15, z: 0}
+=======
+        value: {x: 6.45, y: 0.95, z: 0}
+>>>>>>> Stashed changes
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -47,7 +59,11 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.43333334
+<<<<<<< Updated upstream
         value: {x: 1, y: 0.15, z: 0}
+=======
+        value: {x: 6.45, y: 0.95, z: 0}
+>>>>>>> Stashed changes
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -130,7 +146,11 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+<<<<<<< Updated upstream
         value: -2.4
+=======
+        value: -3.1
+>>>>>>> Stashed changes
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -139,7 +159,11 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.23333333
+<<<<<<< Updated upstream
         value: -2.4
+=======
+        value: -3.1
+>>>>>>> Stashed changes
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -148,7 +172,11 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.25
+<<<<<<< Updated upstream
         value: 1
+=======
+        value: 6.45
+>>>>>>> Stashed changes
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -157,7 +185,11 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.43333334
+<<<<<<< Updated upstream
         value: 1
+=======
+        value: 6.45
+>>>>>>> Stashed changes
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -178,7 +210,11 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+<<<<<<< Updated upstream
         value: -0.15
+=======
+        value: 0.18
+>>>>>>> Stashed changes
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -187,7 +223,11 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.23333333
+<<<<<<< Updated upstream
         value: -0.15
+=======
+        value: 0.18
+>>>>>>> Stashed changes
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -196,7 +236,11 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.25
+<<<<<<< Updated upstream
         value: 0.15
+=======
+        value: 0.95
+>>>>>>> Stashed changes
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -205,7 +249,11 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.43333334
+<<<<<<< Updated upstream
         value: 0.15
+=======
+        value: 0.95
+>>>>>>> Stashed changes
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -220,6 +268,7 @@ AnimationClip:
     classID: 4
     script: {fileID: 0}
     flags: 0
+<<<<<<< Updated upstream
   - serializedVersion: 2
     curve:
       serializedVersion: 2
@@ -250,6 +299,8 @@ AnimationClip:
     classID: 4
     script: {fileID: 0}
     flags: 0
+=======
+>>>>>>> Stashed changes
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
