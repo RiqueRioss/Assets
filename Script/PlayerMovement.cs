@@ -170,4 +170,8 @@ public class PlayerMovement : MonoBehaviour
         isAttacking = false; // Desativa o estado de ataque
     }
 
+    public void stopHorizontal(){
+        this.horizontal = 0;
+    }
+
 }
