@@ -174,4 +174,8 @@ public class PlayerMovement : MonoBehaviour
         this.horizontal = 0;
     }
 
+    public bool getisFacingRight(){
+        return isFacingRight;
+    }
+
 }
